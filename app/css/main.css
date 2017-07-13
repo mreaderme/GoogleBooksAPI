@@ -1,0 +1,31 @@
+body {
+  font-family: 'Raleway', 'sans-serif';
+  background: #fefefe;
+}
+
+.list {
+  max-width: 1040px;
+  margin: 0 auto;
+  border: 5px solid #101010;
+  border-radius: 10px;
+  background: #eee;
+}
+
+.entry {
+  padding: 1em;
+}
+
+.entry:nth-child(even) {
+  background: #fff;
+}
+
+.book-thumbnail {
+  width: 128px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.entry:hover .book-thumbnail {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+};
